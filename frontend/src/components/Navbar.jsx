@@ -27,16 +27,16 @@ export default function Navbar() {
                 </span>
               </div>
             </div>
-            <span className="hidden sm:inline text-sm text-base-content/80 max-w-[120px] truncate">
+            <span className="hidden sm:inline text-sm text-base-content/80 max-w-[250px] truncate">
               {user?.name}
             </span>
           </button>
 
           <ul
             tabIndex={0}
-            className="dropdown-content menu bg-base-100 rounded-box shadow-md z-50 w-44 p-1 mt-1"
+            className="dropdown-content menu bg-base-100 rounded-box shadow-md z-50 w-200 p-3 mt-1  text-ellipsis"
           >
-            <li className="menu-title text-xs px-3 py-1 text-base-content/50 truncate">
+            <li className="menu-title text-xs px-3 py-1 w-full text-base-content/50 text-clip">
               {user?.email}
             </li>
             <li>
