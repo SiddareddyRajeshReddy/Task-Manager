@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: "https://dapper-dieffenbachia-bb2574.netlify.app/api",
+  baseURL: "https://task-manager-92xx.onrender.com/api/",
   headers: { 'Content-Type': 'application/json' },
   timeout: 10000,
 });
