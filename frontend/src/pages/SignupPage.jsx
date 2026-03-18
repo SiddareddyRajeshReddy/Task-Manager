@@ -63,7 +63,7 @@ export default function SignupPage() {
                 type="text"
                 name="name"
                 className="input input-bordered w-full"
-                placeholder="John Doe"
+                placeholder="Full Name"
                 value={form.name}
                 onChange={handleChange}
                 required
